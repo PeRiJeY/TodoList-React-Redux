@@ -1,0 +1,43 @@
+{
+  "name": "TodoList-React",
+  "version": "1.0.0",
+  "description": "Sample working with React,TypeScript and Webpack",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^8.0.26",
+    "@types/react": "^15.6.2",
+    "@types/react-dom": "^0.14.23",
+    "@types/react-redux": "^4.4.47",
+    "awesome-typescript-loader": "^3.1.2",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.27.3",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.10.1",
+    "html-webpack-plugin": "^2.24.0",
+    "image-webpack-loader": "^3.4.0",
+    "node-sass": "^4.0.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.16.0",
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.0.6",
+    "url-loader": "^0.5.7",
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "bootswatch": "^3.3.7",
+    "jquery": "^3.0.0",
+    "popper.js": "^1.11.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2"
+  }
+}
